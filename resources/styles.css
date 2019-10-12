@@ -1,0 +1,50 @@
+.background {
+  viewport-fill: black;
+}
+
+#myDate {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 70%;
+  fill: white;
+}
+
+#myTime {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%;
+  fill: white;
+}
+
+#mySteps {  
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  x: 90%;
+  y: 12%;
+  fill: white;
+}
+#myBattery {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 0%;
+  y: 12%;
+  fill: red;
+}
+#myHeartRate {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  x: 90%;
+  y: 98%;
+  fill: white;
+}

@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "2e8870a9-e79e-45f8-a4a1-e45445bc8aa4",
+    "appType": "clockface",
+    "appDisplayName": "Basic Stats",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Basic Stats"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}
